@@ -1,0 +1,188 @@
+{
+  "media_sources": [
+    {
+      "platform": "YouTube",
+      "type": "social_media",
+      "copyright_status": "COPYRIGHTED",
+      "description": "YouTube ভিডিও - সাধারণত কপিরাইটেড",
+      "license": "Varies by content",
+      "safe_usage": "শুধুমাত্র Creative Commons লাইসেন্সযুক্ত ভিডিও ডাউনলোড করুন",
+      "api": "yt-dlp (Free)",
+      "auth_required": false,
+      "rate_limit": "চেক করুন - সাধারণত IP block হতে পারে"
+    },
+    {
+      "platform": "YouTube Audio Library",
+      "type": "royalty_free",
+      "copyright_status": "ROYALTY_FREE",
+      "description": "Google এর অফিশিয়াল ফ্রি মিউজিক/সাউন্ড ইফেক্ট",
+      "license": "Royalty Free - সাধারণত বিনামূল্যে ব্যবহার করা যায়",
+      "safe_usage": "সম্পূর্ণ নিরাপদ - শুধু ডাউনলোড করুন এবং ব্যবহার করুন",
+      "api": "Web Scraping (Free)",
+      "auth_required": false,
+      "rate_limit": "খুব কম সীমাবদ্ধতা"
+    },
+    {
+      "platform": "Pexels",
+      "type": "stock_media",
+      "copyright_status": "ROYALTY_FREE",
+      "description": "বিনামূল্যে স্টক ভিডিও এবং ফটোগ্রাফি",
+      "license": "Pexels License - সম্পূর্ণ বিনামূল্যে ব্যবহার",
+      "safe_usage": "সম্পূর্ণ নিরাপদ - ক্রেডিট প্রয়োজন নেই",
+      "api": "Pexels API (Free - 200 requests/hour)",
+      "auth_required": true,
+      "api_key_needed": "পরিবেশ থেকে PEXELS_API_KEY",
+      "rate_limit": "200 requests/hour"
+    },
+    {
+      "platform": "Pixabay",
+      "type": "stock_media",
+      "copyright_status": "ROYALTY_FREE",
+      "description": "লক্ষ লক্ষ বিনামূল্যে ইমেজ এবং ভিডিও",
+      "license": "Pixabay License - সম্পূর্ণ বিনামূল্যে",
+      "safe_usage": "সম্পূর্ণ নিরাপদ - ক্রেডিট ঐচ্ছিক",
+      "api": "Pixabay API (Free - 5000 requests/day)",
+      "auth_required": true,
+      "api_key_needed": "পরিবেশ থেকে PIXABAY_API_KEY",
+      "rate_limit": "5000 requests/day"
+    },
+    {
+      "platform": "Unsplash",
+      "type": "stock_media",
+      "copyright_status": "ROYALTY_FREE",
+      "description": "বিনামূল্যে উচ্চ মানের ইমেজ",
+      "license": "Unsplash License - সম্পূর্ণ বিনামূল্যে",
+      "safe_usage": "সম্পূর্ণ নিরাপদ - ক্রেডিট প্রয়োজন নেই",
+      "api": "Unsplash API (Free - 50 requests/hour)",
+      "auth_required": true,
+      "api_key_needed": "পরিবেশ থেকে UNSPLASH_API_KEY",
+      "rate_limit": "50 requests/hour"
+    },
+    {
+      "platform": "Coverr",
+      "type": "stock_media",
+      "copyright_status": "ROYALTY_FREE",
+      "description": "সুন্দর ফ্রি স্টক ভিডিও",
+      "license": "Coverr License - বিনামূল্যে ব্যবহার",
+      "safe_usage": "সম্পূর্ণ নিরাপদ - লিংক শেয়ার করা যায়",
+      "api": "Web Scraping (Free)",
+      "auth_required": false,
+      "rate_limit": "কোন সীমাবদ্ধতা নেই"
+    },
+    {
+      "platform": "Videvo",
+      "type": "stock_media",
+      "copyright_status": "ROYALTY_FREE",
+      "description": "হাজার হাজার বিনামূল্যে ভিডিও ক্লিপ",
+      "license": "Videvo License - বিনামূল্যে ব্যবহার",
+      "safe_usage": "সম্পূর্ণ নিরাপদ - বাণিজ্যিক ব্যবহার সহ",
+      "api": "Web Scraping (Free)",
+      "auth_required": false,
+      "rate_limit": "কোন সীমাবদ্ধতা নেই"
+    },
+    {
+      "platform": "Free Music Archive",
+      "type": "stock_media",
+      "copyright_status": "ROYALTY_FREE",
+      "description": "বিনামূল্যে সংগীত বিভিন্ন লাইসেন্সের অধীন",
+      "license": "CC BY, CC0, এবং অন্যান্য Creative Commons",
+      "safe_usage": "লাইসেন্স যাচাই করুন এবং সেই অনুযায়ী ব্যবহার করুন",
+      "api": "Web Scraping (Free)",
+      "auth_required": false,
+      "rate_limit": "কোন সীমাবদ্ধতা নেই"
+    },
+    {
+      "platform": "Incompetech",
+      "type": "stock_media",
+      "copyright_status": "ROYALTY_FREE",
+      "description": "সৃজনশীল কমন্স সংগীত এবং সাউন্ড ইফেক্ট",
+      "license": "Creative Commons BY 3.0 - সম্পূর্ণ বিনামূল্যে",
+      "safe_usage": "সম্পূর্ণ নিরাপদ - শুধু ক্রেডিট দিন",
+      "api": "Web Scraping (Free)",
+      "auth_required": false,
+      "rate_limit": "কোন সীমাবদ্ধতা নেই"
+    },
+    {
+      "platform": "Instagram",
+      "type": "social_media",
+      "copyright_status": "COPYRIGHTED",
+      "description": "Instagram রিল/পোস্ট - সাধারণত কপিরাইটেড",
+      "license": "Varies by content",
+      "safe_usage": "শুধুমাত্র আপনার নিজস্ব কন্টেন্ট বা অনুমতি সহ কন্টেন্ট ডাউনলোড করুন",
+      "api": "instagrapi (Free)",
+      "auth_required": false,
+      "rate_limit": "Instagram এর নিয়মের মধ্যে থাকুন"
+    },
+    {
+      "platform": "TikTok",
+      "type": "social_media",
+      "copyright_status": "COPYRIGHTED",
+      "description": "TikTok ভিডিও - সাধারণত কপিরাইটেড এবং ওয়াটারমার্ক সহ",
+      "license": "Varies by content",
+      "safe_usage": "শুধুমাত্র আপনার বা অনুমতিপ্রাপ্ত কন্টেন্ট ডাউনলোড করুন",
+      "api": "yt-dlp (Free)",
+      "auth_required": false,
+      "rate_limit": "IP block এর ঝুঁকি আছে"
+    },
+    {
+      "platform": "Twitter/X",
+      "type": "social_media",
+      "copyright_status": "COPYRIGHTED",
+      "description": "Twitter ভিডিও/ইমেজ - কপিরাইটেড বা লাইসেন্সযুক্ত",
+      "license": "Varies by content",
+      "safe_usage": "শুধুমাত্র আপনার বা অনুমতিপ্রাপ্ত কন্টেন্ট ডাউনলোড করুন",
+      "api": "tweepy (Free tier সীমিত)",
+      "auth_required": true,
+      "api_key_needed": "পরিবেশ থেকে TWITTER_API_KEY",
+      "rate_limit": "15 requests/15 minutes (Free tier)"
+    },
+    {
+      "platform": "Facebook",
+      "type": "social_media",
+      "copyright_status": "COPYRIGHTED",
+      "description": "Facebook ভিডিও - সাধারণত কপিরাইটেড",
+      "license": "Varies by content",
+      "safe_usage": "শুধুমাত্র আপনার বা অনুমতিপ্রাপ্ত কন্টেন্ট ডাউনলোড করুন",
+      "api": "facebook-sdk (Free)",
+      "auth_required": true,
+      "api_key_needed": "পরিবেশ থেকে FACEBOOK_APP_ID এবং FACEBOOK_APP_SECRET",
+      "rate_limit": "কন্টেন্ট নীতি মেনে চলুন"
+    },
+    {
+      "platform": "Pinterest",
+      "type": "social_media",
+      "copyright_status": "MIXED",
+      "description": "Pinterest ইমেজ - কিছু ফ্রি, কিছু কপিরাইটেড",
+      "license": "Varies by content - প্রতিটি পিনের লাইসেন্স চেক করুন",
+      "safe_usage": "লাইসেন্স যাচাই করুন এবং উৎস দেখুন",
+      "api": "Web Scraping (Free)",
+      "auth_required": false,
+      "rate_limit": "পরিমিত হারে ডাউনলোড করুন"
+    }
+  ],
+  "copyright_warnings": {
+    "COPYRIGHTED": {
+      "icon": "⚠️",
+      "color": "red",
+      "message": "এই কন্টেন্ট সাধারণত কপিরাইটেড। শুধুমাত্র অনুমতি সহ ব্যবহার করুন।"
+    },
+    "ROYALTY_FREE": {
+      "icon": "✅",
+      "color": "green",
+      "message": "এই কন্টেন্ট সম্পূর্ণ বিনামূল্যে ব্যবহারের জন্য উপলব্ধ।"
+    },
+    "MIXED": {
+      "icon": "⚡",
+      "color": "yellow",
+      "message": "মিশ্র লাইসেন্স - প্রতিটি কন্টেন্টের জন্য লাইসেন্স চেক করুন।"
+    }
+  },
+  "download_checklist": [
+    "✓ প্ল্যাটফর্ম চিহ্নিত করুন",
+    "✓ কপিরাইট স্ট্যাটাস যাচাই করুন",
+    "✓ লাইসেন্স তথ্য পড়ুন",
+    "✓ ডাউনলোডের আগে সম্মতি নিশ্চিত করুন",
+    "✓ মেটাডেটা সংরক্ষণ করুন",
+    "✓ ফাইল গুণমান পরীক্ষা করুন"
+  ]
+}
